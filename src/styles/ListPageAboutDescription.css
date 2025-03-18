@@ -1,0 +1,57 @@
+.AboutDescriptionParentContainer{
+    height: 100%;
+    width: 700px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 2px solid red; */
+}
+.AboutDescriptionMainContainer{
+    height: 100%;
+    width: 700px;
+    /* border: 2px solid black; */
+    padding: 20px;
+
+
+}
+.AboutDescriptionTxt{
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #474D6A;
+    
+}
+.AboutDescriptionBoldTxt{
+    margin: 10px;
+    font-size: 16px;
+    
+}
+.AmbiationBoxParentContainer{
+    width: 700px;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.AmbiationBoxContainer{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 100%;
+    background-color: #FFF3DD;
+    border: 2px solid #ffe0a6;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+.buttonLearnMore{
+    border: none;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(35, 67, 252);
+    height: 35px;
+    width: 120px;
+}
