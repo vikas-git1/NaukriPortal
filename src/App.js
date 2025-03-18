@@ -1,29 +1,19 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import SideCard from "./components/SideCard";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
-import Listpage from "./components/Listpage";
-// import SimilarJobsCards from "./components/SimilarJobsCards";
-import SimilarJobsCardsView from "./components/SimilarJobsView";
-import ListPageAboutDescription from "./components/ListPageAboutDescription";
-import ListPageRightSecondCard from "./components/ListPageRightSecondCard";
-
-
-
+import ListRow from "./components/ListRow";
+import ListView from "./components/ListView";
 function App() {
   return (
     <>
-      <Login />
+       <Login />
       <NavBar />
       <SideCard />
       <Footer />
-      <Listpage/>
-      <SimilarJobsCardsView/>
-      <ListPageAboutDescription/>
       
-       
     </>
   );
 }
