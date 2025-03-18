@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import SideCard from "./components/SideCard";
 import NavBar from "./components/NavBar";
