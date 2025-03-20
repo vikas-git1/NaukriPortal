@@ -8,10 +8,7 @@
   position: absolute;
   right: 0px;
   z-index: 2;
-  /* display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: space-evenly; */
+ 
 }
 .cut-page-btn {
   font-weight: bold;

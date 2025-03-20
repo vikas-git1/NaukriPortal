@@ -1,18 +1,19 @@
-
+// import logo from "./logo.svg";
 import "./App.css";
 import SideCard from "./components/SideCard";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
-import Wrapper from "./components/Wrapper";
+import ListRow from "./components/ListRow";
+import ListView from "./components/ListView";
 function App() {
   return (
     <>
-      <Login />
+       <Login />
       <NavBar />
       <SideCard />
       <Footer />
-      <Wrapper/>
+      
     </>
   );
 }

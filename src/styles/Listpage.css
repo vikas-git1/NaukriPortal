@@ -1,0 +1,199 @@
+/* .ListPageParentContainer{
+  height: 100%;
+  width: 700px;
+  border: 2px solid yellow;
+}
+.ListPageMainContainer{
+  height: 100%;
+  width: 700px;
+  border: 2px solid red;
+}
+#HdfcLogo{
+  height: 65px;
+}
+#StarImg{
+  height: 12px;
+}
+.Wingimg{
+  height: 22px;
+}
+.ListPageMainTxtContainer{
+  width: 700px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+
+}
+.ItemsContainer{
+  width: 500px;
+  border: 2px solid green;
+  display: flex;
+} */
+.ParentContainer {
+  height: 100%;
+  width: 700px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.MainContainer {
+  height: 100%;
+  width: 700px;
+
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.ListPageMainTxt {
+  font-size: 19px;
+  font-weight: 500;
+}
+.ListPageRatinContainer {
+  /* border: 2px solid red; */
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 500px;
+  height: 20px;
+  display: flex;
+  
+  /* justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: rgba(58, 57, 57, 0.888);
+  font-weight: 400; */
+}
+.ContainerTxt {
+  margin-top: 2px;
+  /* border: 2px solid red; */
+  margin-left: 3PX;
+  margin-right: 15px;
+  color: rgba(58, 57, 57, 0.888);
+  font-weight: 400;
+}
+.notDisTxt{
+  /* border: 2px solid green; */
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.location{
+  /* border: 2px solid red; */
+  margin-top: 5px;
+}
+.bag{
+  margin-top: 5px;
+  /* border: 1px solid red; */
+}
+.RatingTxt {
+  /* border: 2px solid green; */
+  font-size: small;
+  height: 13px;
+  width: 13px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.reviewTxt{
+  font-size: 14px;
+}
+.starSeprator{
+  /* border: 1px solid red; */
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: -5px;
+  color: #878787;
+  padding-bottom: 2px;
+}
+.WingContainer {
+  display: flex;
+  margin-right: 60px;
+}
+.EmployeesTxt {
+  font-size: smaller;
+  color: #be8c41;
+}
+.leftWingImg{
+  margin-left: 20px;
+}
+.PageTextFirstContainer {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  /* justify-content: space-around; */
+
+  width: 290px;
+  margin-bottom: 7px;
+}
+.pageTextSecondContainer {
+  width: 300px;
+  display: flex;
+}
+#HDFClogo {
+  cursor: pointer;
+  margin-left: 77px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+#LinkBTN {
+  color: #3b5df5;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#LinkBTN:hover {
+  text-decoration: underline;
+}
+.ListPageFooterContainer {
+  height: 100%;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  align-items: center;
+}
+.FooterTextContainer {
+  width: 450px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+}
+.FooterContainerText {
+  display: flex;
+  font-size: 10px;
+}
+.ButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hFourTXT {
+  font-weight: 700;
+  margin-left: 3px;
+}
+.RegisterContainerBTN {
+  border: 1px solid #275df5;
+  color: #3b5df5;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 15px;
+  padding-bottom: 4px;
+}
+.RegisterContainerBTN:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.LoginContainerBTN {
+  background-color: #275df5;
+  border: none;
+  color: white;
+  font-size: 15px;
+  width: 150px;
+  height: 30px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+}
+.LoginContainerBTN:hover {
+  background-color: #496ed3;
+}
