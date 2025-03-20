@@ -1,7 +1,7 @@
 .wrapper-container {
   height: 870px;
   width: 250px;
-  border: 0.2px solid black;
+  border: 0.2px solid rgb(192, 187, 187);
   font-weight: bolder;
   border-radius: 10px;
   padding: 10px;
