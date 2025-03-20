@@ -1,0 +1,115 @@
+.wrapper-container {
+  height: 870px;
+  width: 250px;
+  border: 0.2px solid rgb(192, 187, 187);
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 10px;
+}
+.wrappermain {
+  display: flex;
+}
+.allFilterTXT {
+  font-weight: 400;
+}
+.appliedTXT {
+  color: rgb(59, 100, 233);
+}
+.filter {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+h2 {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.para {
+  font-size: small;
+  color: blue;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+#department {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#experience {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+.year{
+  font-size: small;
+}
+#salary {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#company-type {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#work-mode {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#top-compaines {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#industry {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#role-category {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#education {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#posted-by {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+#freshness {
+  width: 75px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 12px;
+  margin-left: 45px;
+}
+#location {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
+}
+.freshness-container {
+ display: flex;
+}
+.fressTXT{
+  margin-top: -10px;
+  margin-left: -18px;
+}
