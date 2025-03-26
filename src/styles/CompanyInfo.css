@@ -1,0 +1,52 @@
+.AboutDescriptionParentContainer {
+  height: 100%;
+  width: 715px;
+  margin-top: 6px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 93px;
+}
+.AboutDescriptionMainContainer {
+  height: 100%;
+  width: 700px;
+
+  padding: 20px;
+}
+.AboutDescriptionTxt {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #474d6a;
+}
+.AboutDescriptionBoldTxt {
+  margin: 10px;
+  font-size: 16px;
+}
+.AmbiationBoxParentContainer {
+  width: 700px;
+  height: 100%;
+  display: flex;
+}
+.AmbiationBoxContainer {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 700px;
+  height: 100%;
+  background-color: #fff3dd;
+  border: 2px solid #ffe0a6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonLearnMore {
+  border: none;
+  margin-top: 10px;
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(35, 67, 252);
+  height: 35px;
+  width: 120px;
+}

@@ -1,0 +1,89 @@
+.roleJobMAincontainer {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-bottom: 8px;
+  width: 420px;
+  height: 100%;
+  margin-top: 70px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.roleJobMAinLebelTXT {
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 220px;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoImage {
+  margin-top: 1px;
+}
+.roleJobbuttonTXT {
+  font-weight: 430;
+  color: red;
+  width: 160px;
+  margin-top: 15px;
+  margin-left: 120px;
+  margin-bottom: 12px;
+  border: 0.8px solid rgb(240, 9, 124);
+  border-radius: 30px;
+  padding: 5px;
+  
+}
+.roleJoblittleFristcontainer {
+  padding-left: 18px;
+  padding-right: 14px;
+  margin-left: 35px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: 0.2px solid rgb(172, 170, 170);
+  width: 350px;
+  height: 360px;
+}
+.miniContainerrolejobCard {
+  padding-left: 20px;
+  height: 150px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+}
+.icons {
+  color: black;
+  margin-left: 4px;
+  margin-top: 3.5px;
+}
+.Personalditails {
+  margin-right: 12px;
+  width: 270px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.imgMaincontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.Imgcontainer {
+  margin-top: 5px;
+  border-radius: 4px;
+  margin-right: 12px;
+  width: 35px;
+  height: 35px;
+  border: 0.5px solid rgb(227, 227, 227);
+}
+p {
+  font-weight: 100;
+}
+.lastparaContainer {
+  color: black;
+  font-size: small;
+}

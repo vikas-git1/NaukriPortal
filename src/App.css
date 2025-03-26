@@ -1,0 +1,12 @@
+.listpage-rightpage{
+    display: flex;
+    flex-direction: row;
+}
+.aboutcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.listpage-rightpagetwo{
+    display: flex;
+    flex-direction: row;   
+}

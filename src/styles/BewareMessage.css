@@ -1,0 +1,23 @@
+.DescParentContainer {
+  height: 100%;
+  width: 715px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 93px;
+}
+.DescMainContainer {
+  height: 100%;
+  width: 700px;
+  padding: 10px;
+}
+.ReadMoreBtn {
+  margin-left: 5px;
+  color: blue;
+  font-weight: 400;
+}
+.ReadMoreBtn:hover {
+  text-decoration: underline;
+}

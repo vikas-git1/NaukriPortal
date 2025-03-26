@@ -1,0 +1,79 @@
+.secondMainBoxContainer {
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+  width: 450px;
+  margin-left: 20px; 
+}
+.text {
+  margin-left: 19px;
+  font-size: 13px;
+  margin-top: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90px;
+}
+.img-Txt-box {
+  margin-right: 26px;
+  margin-top: 5px;
+  display: flex;
+  height: 100%;
+  width: 90px;
+  font-size: 13px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.view-all {
+  color: #275df5;
+  font-weight: bold;
+  font-size: 15px;
+}
+.heading {
+  display: flex;
+  font-size: large;
+  justify-content: space-between;
+}
+.user-info {
+  font-size: 15px;
+}
+.benefits {
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+.benefitsOne {
+  padding: 9px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.benefitsTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box {
+  height: 30px;
+  width: 30px;
+}
+.SecondCardFotterContainer {
+  display: flex;
+  flex-direction: row;
+}
+.powered-Txt {
+  color: gray;
+}
+.AmbitionBoxImg {
+  height: 17px;
+  width: 17px;
+  margin-top: 4px;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+.AmbitionBox {
+  font-size: 11px;
+  margin-top: 4px;
+}

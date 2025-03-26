@@ -1,40 +1,11 @@
-/* .ListPageParentContainer{
-  height: 100%;
-  width: 700px;
-  border: 2px solid yellow;
-}
-.ListPageMainContainer{
-  height: 100%;
-  width: 700px;
-  border: 2px solid red;
-}
-#HdfcLogo{
-  height: 65px;
-}
-#StarImg{
-  height: 12px;
-}
-.Wingimg{
-  height: 22px;
-}
-.ListPageMainTxtContainer{
-  width: 700px;
-  border: 2px solid black;
-  display: flex;
-  justify-content: space-between;
 
-}
-.ItemsContainer{
-  width: 500px;
-  border: 2px solid green;
-  display: flex;
-} */
 .ParentContainer {
-  height: 100%;
+margin-left: 100px; 
+margin-top: 70px;
+ height: 90%;
   width: 700px;
   border-radius: 20px;
   padding: 10px;
-  margin: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .MainContainer {
@@ -50,43 +21,36 @@
   font-weight: 500;
 }
 .ListPageRatinContainer {
-  /* border: 2px solid red; */
+  
   margin-bottom: 10px;
   margin-top: 5px;
   width: 500px;
   height: 20px;
   display: flex;
   
-  /* justify-content: space-between;
-  font-size: 15px;
-  margin-bottom: 15px;
-  color: rgba(58, 57, 57, 0.888);
-  font-weight: 400; */
 }
 .ContainerTxt {
   margin-top: 2px;
-  /* border: 2px solid red; */
+  
   margin-left: 3PX;
   margin-right: 15px;
   color: rgba(58, 57, 57, 0.888);
   font-weight: 400;
 }
 .notDisTxt{
-  /* border: 2px solid green; */
+  
   margin-left: 15px;
   margin-top: 5px;
 }
 .location{
-  /* border: 2px solid red; */
-  margin-top: 5px;
+ margin-top: 5px;
 }
 .bag{
   margin-top: 5px;
-  /* border: 1px solid red; */
+  
 }
 .RatingTxt {
-  /* border: 2px solid green; */
-  font-size: small;
+    font-size: small;
   height: 13px;
   width: 13px;
   margin-top: 5px;
@@ -97,7 +61,7 @@
   font-size: 14px;
 }
 .starSeprator{
-  /* border: 1px solid red; */
+  
   margin-left: 3px;
   margin-right: 3px;
   margin-top: -5px;
@@ -118,8 +82,7 @@
 .PageTextFirstContainer {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid red; */
-  /* justify-content: space-around; */
+  
 
   width: 290px;
   margin-bottom: 7px;

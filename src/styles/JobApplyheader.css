@@ -1,0 +1,43 @@
+
+.jobheaderMaincontainer{
+     margin-left: -50px;
+    background-color: rgb(251, 253, 254);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+}
+.miniContainer{
+    margin-left: 12px;
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.ImgjobHeadercontainer{
+    margin-bottom: 30px;
+    margin-left: 130px;
+    border-radius: 10px;
+    height: 45px;
+margin-top: 23px;
+
+}
+.minisecoundContainer{
+ 
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.linkTXT{
+    color: rgb(32, 38, 225);
+    font-weight: 600;
+}
+.Applybutton{
+    border: none;
+    font-weight: 600;
+    color: white;
+    background-color: blue;
+    width: 90px;
+    padding: 7px;
+    border-radius: 19px;
+    margin-left: 24px;
+}

@@ -1,0 +1,49 @@
+.FourthCardParentContainer{
+    height: 100%;
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top:-130px;
+    margin-left: 20px; 
+}
+.FourthCardMainContainer{
+    height: 100%;
+    
+    padding: 15px;
+}
+.FourthCardHeadderTxt{
+    display: flex;
+    justify-content: space-between;
+}
+.HeadderTxt{
+    width: 230px;
+}
+.FourthCardMiddleTxt{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.FourthCardFooterTxt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.FooterTxt{
+    font-size: small;
+    color: #717B9E;
+}
+.MiddleTxt{
+    color: #717B9E;
+    font-weight: 400;   
+}
+.CardTxt{
+    font-weight: 200;
+}
+.KnowMoreBtn{
+    color: #275DF5;
+    font-weight: 450;
+
+}
+.KnowMoreBtn:hover{
+    text-decoration: underline;
+}

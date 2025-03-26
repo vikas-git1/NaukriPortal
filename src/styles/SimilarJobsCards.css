@@ -1,85 +1,101 @@
-.SimilarJobsParentContainer{
-    height: 100%;
-    width: 650px;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 20px;
-    margin-top: 20px;
+
+.SimilarJobsParentContainer {
+  height: 100%;
+  width: 700px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 93px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.SimilarJobsMainContainer{
-    height: 105px;
-    width: 650px;
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    cursor: pointer;
+.SimilarJobsMainContainer {
+  height: 100px;
+  width: 650px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  cursor: pointer;
 }
-.SimilarJobsMainTXT{
-    font-weight: 500;
-    font-size: 17px;
+.SimilarJobsMainTXT {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 4px;
 }
 
-.SimilarJobsRatingContainer{
-    width: 190px;
-    /* border: 2px solid yellow; */
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 15px;
+.SimilarJobsRatingContainer {
+  width: 260px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 15px;
 }
-.WiproTXT{
-    font-weight: 500;
-    color: #474D6A;
-    
+.WiproTXT {
+  font-weight: 500;
+  color: #474d6a;
+
+  
 }
-.SimilarJobsRatingTXT{
-    color: gray;
-    font-size: 13px;
-    margin-top: 2px;
+.SimilarJobsRatingTXT {
+  color: gray;
+  font-size: 14px;
+  margin-top: 2px;
 }
-.SimilarJobsCityContainer{
-    width: 80px;
-    /* border: 2px solid purple; */
-    display: flex;
-    justify-content: space-between;
-    padding:2px;
+.SimilarJobsCityContainer {
+  
+
+width: 130px;
+  display: flex;
+  margin-left: 4.5px;
+ 
 }
-.MumbaiTXT{
-    margin-top: -5px;
-    color: #0E0E0E;
+.LocationSymbol{
+  font-size: 15px;
 }
-.SimilarJobsFooterContainer{
-    width: 650px;
-    /* border: 2px solid green; */
-    display: flex;
-    justify-content: space-between;
-   
-    padding: 15px;
-    margin-bottom: 15px;
-    cursor: pointer;
+
+.MumbaiTXT {
+margin-left: 2px;
+  margin-top: -3px;
+  font-size: 14px;
+  color: #0e0e0e;
+
 }
-.FooterContainerTXT{
-    font-size: 12px;
-   
+.SimilarJobsFooterContainer {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
 }
-.FooterContainerPostedTXT{
- font-size: x-small;
+.FooterContainerTXT {
+  font-size: 12px;
 }
-.FooterContainerMainTXT{
-    width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: -10px;
-    
-    /* border: 2px solid brown; */
+.FooterContainerPostedTXT {
+  font-size: x-small;
+  font-weight: 400;
 }
-.FooterContainersecondTXT{
-    width: 13   0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
+.FooterContainerMainTXT {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -10px;
+  font-weight: 900;
+}
+.FooterContainersecondTXT {
+  width: 13 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot{
+  margin-bottom: 8px;
+  font-weight: bold;
 }

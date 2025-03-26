@@ -1,20 +1,20 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import SideCard from "./components/SideCard";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Login from "./components/Login";
-import ListRow from "./components/ListRow";
-import ListView from "./components/ListView";
+import LandingPage from "./screens/LandingPage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Dashboard from "./screens/Dashboard";
+import JobDetails from "./screens/JobDetailsPage";
+
 function App() {
   return (
-    <>
-       <Login />
-      <NavBar />
-      <SideCard />
-      <Footer />
-      
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/jobslist" element={<Dashboard />}></Route>
+        <Route path="/jobdetails" element={<JobDetails/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

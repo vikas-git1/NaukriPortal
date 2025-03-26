@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/ListPageAboutDescription.css";
-const ListPageAboutDescription = () => {
+import "../../styles/CompanyInfo.css";
+const CompanyInfo = () => {
   return (
     <div className="AboutDescriptionParentContainer">
       <div className="AboutDescriptionMainContainer">
@@ -43,8 +43,8 @@ const ListPageAboutDescription = () => {
         </div>
         <div className="AboutDescriptionTxt">
           <p>
-            <b>Address:</b> HDFC BANK HOUSE,,,SENAPATI BAPAT MARG,LOWER PAREL , MUMBAI,
-            Maharashtra, India
+            <b>Address:</b> HDFC BANK HOUSE,,,SENAPATI BAPAT MARG,LOWER PAREL ,
+            MUMBAI, Maharashtra, India
           </p>
         </div>
       </div>
@@ -64,4 +64,4 @@ const ListPageAboutDescription = () => {
     </div>
   );
 };
-export default ListPageAboutDescription;
+export default CompanyInfo;

@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/Listpage.css";
+import "../../styles/JDApplyCard.css";
 import { GoBriefcase } from "react-icons/go";
 import { LiaRupeeSignSolid } from "react-icons/lia";
 import { IoLocationOutline } from "react-icons/io5";
 
-const Listpage = () => {
+const JDApplyCard = () => {
   return (
     <div className="ParentContainer">
       <div className="MainContainer">
@@ -28,7 +28,6 @@ const Listpage = () => {
                 width={7}
                 height={5}
               />
-
               <span className="EmployeesTxt">Employees' choice</span>
               <img
                 src="/images/rightwing.png"
@@ -66,13 +65,13 @@ const Listpage = () => {
             <p>Posted:</p>
             <h4 className="hFourTXT">2 Days ago</h4>
           </div>
-          {/* <h6>|</h6> */}
+
           <div className="starSeprator">|</div>
           <div className="FooterContainerText">
             <p>Openings:</p>
             <h4 className="hFourTXT">1</h4>
           </div>
-          {/* <h6>|</h6> */}
+
           <div className="starSeprator">|</div>
           <div className="FooterContainerText">
             <p>Applicants:</p>
@@ -89,24 +88,6 @@ const Listpage = () => {
         </div>
       </div>
     </div>
-    // <div className="ListPageParentContainer">
-    //   <div className="ListPageMainContainer">
-    //     <div className="ListPageMainTxtContainer">
-    //       <p>Urgent opening For DPC Service Desk Operator</p>
-    //       <img id="HdfcLogo" src="images/hdfclogo.png" alt="HDFC" />
-    //     </div>
-    //     <div className="ItemsContainer">
-    //       <p>Hdfc Bank</p>
-    //       <img id="StarImg" src="images/star (1).png" alt="star" />
-    //       <p>3.9</p>
-    //       <p>|</p>
-    //       <p>40167 Reviews</p>
-    //       <img className="Wingimg" src="images/left.wing.png" alt="wing" />
-    //       <p>Empolyees Choice</p>
-    //       <img className="Wingimg" src="images/right.wing.png" alt="wing" />
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
-export default Listpage;
+export default JDApplyCard;

@@ -5,6 +5,7 @@ import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 import Login from "./Login";
+import { Link } from "react-router-dom";
 const NavBar = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [openLoginBox, setOpenLoginBox] = useState(false);
@@ -31,7 +32,7 @@ const NavBar = () => {
             Jobs
             {activeDropdown === "jobs" && (
               <ul className="dropdownMenu">
-                <li>IT Jobs</li>
+                <li> <Link to="/jobslist">IT Jobs</Link>   </li>
                 <li>Marketing Jobs</li>
                 <li>Finance Jobs</li>
               </ul>

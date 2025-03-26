@@ -1,55 +1,56 @@
 import React from "react";
 import "../styles/ListRow.css";
+import { FaCircle } from "react-icons/fa6";
 
 const ListRow = (props) => {
-  // console.log("juji",props.brand.name)
   return (
     <>
       <div className="main">
         <div className="header">
           <div className="head">
-            <div className="heading">{props.brand.name}</div>
+            <div className="heading">{props.data.companyName}</div>
             <div className="reviews">
-              <b>Hdfc Bank</b>
+              <b> {props.data.companyName} </b>
               <img
                 src="/images/rating_star.png"
                 alt=""
                 className="ratingStar"
               />
-              3.9 <div className="Seprator">|</div> 39761 Reviews
+              {props.data.rating}
+              <div className="Seprator">|</div>
+              {props.data.reviews} Reviews
             </div>
           </div>
           <div className="logo">
-            <img src={props.brand.icon} alt="" className="companyLogo" />
+            <img src={props.data.icon} alt="" className="companyLogo" />
           </div>
         </div>
 
         <div className="info">
           <div className="requirement">
-            <img src="/images/briefcase.png" alt="" className="icon" />0 Yrs
+            <img src="/images/briefcase.png" alt="" className="icon" />
+            {props.data.experience} Yrs
             <div className="Seprator">|</div>
             <img src="/images/rupee.png" alt="" className="icon" />
-            Not disclosed
+            {props.data.salary}
             <div className="Seprator">|</div>
             <img src="/images/location.png" alt="" className="icon" />
-            {props.brand.location}
+            {props.data.location}
           </div>
           <div className="description">
             <img src="/images/title.png" alt="" className="icon" />
             <p>
-              Graduate fresher with ability to work in 24/7 shifts and handle
-              incident loggi...
+              {props.data.jobDescription}
             </p>
           </div>
         </div>
-        <div className="educationExperience">
-          <div className="tag">Fresher</div>
-          <div className="Seprator">•</div>
-          <div className="tag">Graduate Fresher</div>
-          <div className="Seprator">•</div>
-          <div className="tag">IT Officer</div>
+        <div >
+        <ul style={{display:'flex', flexDirection: 'row'}}>
+           {props.data.educationExperience.map((education) => (
+                    <li style={{margin: 5}}> <div style={{display:'flex', flexDirection: 'row', margin: 5, color: 'rgb(73, 73, 73)'}}><FaCircle style={{margin: '5', height:'4', marginTop:'10',}}/>{education}</div></li>
+                  ))}
+        </ul>  
         </div>
-
         <div className="posted">
           1 Day Ago
           <div className="save">
@@ -63,5 +64,4 @@ const ListRow = (props) => {
     </>
   );
 };
-
 export default ListRow;
